@@ -1,0 +1,45 @@
+.title {
+  display: inline-flex;
+  line-height: 1.25em;
+  font-family: Oswald, sans-serif;
+  color: #141414;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  font-weight: 800;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+.titleFont {
+  font-weight: 800;
+}
+.leftSpan {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  width: 150px;
+  border-bottom: 2px solid black;
+}
+.RightSpan {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 150px;
+  border-bottom: 2px solid black;
+}
+
+@media all and (max-width: 425px) {
+  .font {
+    font-size: 18px;
+    font-family: Oswald, sans-serif;
+  }
+  .leftSpanMb {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 60px;
+    border-bottom: 2px solid black;
+  }
+  .RightSpanMb {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 60px;
+    border-bottom: 2px solid black;
+  }
+}

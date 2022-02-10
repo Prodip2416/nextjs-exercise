@@ -1,0 +1,151 @@
+.singleDiv {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.singleDiv:hover {
+  /* box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .30); */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.size {
+  color: white;
+}
+.singleDiv:hover .size {
+  color: black;
+  font-size: 13px;
+  border-bottom: 1px solid black;
+}
+.heart {
+  color: white;
+  text-align: right;
+  margin: 5px;
+  font-size: 25px;
+}
+.singleDiv:hover .heart {
+  color: black;
+}
+.model {
+  font-family: Arimo, sans-serif, Arial, sans-serif;
+  letter-spacing: 0.02em;
+  user-select: none;
+  visibility: visible;
+  text-align: center !important;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  color: #000;
+  margin-bottom: 4px;
+  text-transform: capitalize;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.title {
+  font-family: Arimo, sans-serif, Arial, sans-serif;
+  letter-spacing: 0.02em;
+  user-select: none;
+  visibility: visible;
+  text-align: center;
+  color: #000;
+  text-transform: capitalize;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+.shopNow {
+  width: 90%;
+}
+.singleDiv:hover .shopNow {
+  background-color: black;
+  color: white;
+}
+.singleDiv:hover .shopNow:hover {
+  background-color: red;
+}
+.price {
+  line-height: 22px;
+  user-select: none;
+  visibility: visible;
+  text-align: center;
+  letter-spacing: 0;
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.img {
+  overflow: hidden;
+  transform: rotate(-10deg);
+}
+.img:hover {
+  overflow: hidden;
+  transform: rotate(8deg);
+}
+.quickView {
+  margin-top: 100px !important;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(10, 10, 10);
+  font-size: 12px;
+}
+.quickView:hover {
+  background-color: black;
+  color: white;
+}
+.colorBlue {
+  color: blue;
+  border-radius: 50%;
+  background-color: blue;
+}
+.colorBrown {
+  color: brown;
+  border-radius: 50%;
+  background-color: brown;
+}
+.colorBlack {
+  color: black;
+  border-radius: 50%;
+  background-color: black;
+}
+.colorGreen {
+  color: green;
+  border-radius: 50%;
+  background-color: green;
+}
+.colorWhite {
+  color: white;
+  border-radius: 50%;
+  background-color: white;
+}
+.colorPink {
+  color: pink;
+  border-radius: 50%;
+  background-color: pink;
+}
+.colorGray {
+  color: gray;
+  border-radius: 50%;
+  background-color: gray;
+}
+.star {
+  color: #ffc50a;
+}
+
+@media all and (max-width: 425px) {
+  .shopNow {
+   width: 80%;
+  }
+  .model{
+    line-height: 10px;
+  }
+  .price{
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

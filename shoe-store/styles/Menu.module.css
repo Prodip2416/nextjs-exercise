@@ -1,0 +1,12 @@
+.menuLink{
+    font-size: 14px;
+    color: black;
+}
+.menuLink:hover{
+    color: black;
+}
+.selectedMenuLink{
+    height: 40px;
+    border:2px solid #eaeaea;
+    border-radius: 20px
+}

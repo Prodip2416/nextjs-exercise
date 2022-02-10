@@ -1,0 +1,15 @@
+.flex{
+    padding: 20px;
+}
+.menu{
+    text-align: center;
+}
+.option{
+    
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+.option:hover{
+    color: black;
+}

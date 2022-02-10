@@ -1,0 +1,70 @@
+.divLogo{
+  margin-left: 15px;
+}
+.menu{
+  width: 100%;
+}
+.cartCount{
+  /* text-align: right; */
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: -18px !important;
+  /* margin-bottom: 18px !important; */
+  font-size: 20px;
+}
+.cart{
+  font-size: 25px !important;
+}
+.search{
+  font-size: 25px !important;
+}
+.centerMenu{
+  justify-content: space-around;
+  align-content: stretch;
+}
+.navBackColor {
+  background-color: white !important;
+  width: 100%;
+}
+.navCollapseColor {
+  color:black;
+  font-size: 35px !important;
+}
+.navLinkColor {
+  color: black !important;
+  font-family: Oswald, Bangla725, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.navLinkColor:hover
+{
+  border-bottom: 1px solid black;
+}
+.text {
+  font-family: Oswald, Bangla725, sans-serif;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+}
+.menuSubTitle {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 12px;
+  color: #2d2d2d;
+  font-family: Arimo, sans-serif, Arial, sans-serif;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+.menuSubTitle:hover{
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  color: black;
+}
+.menuMarginLeft{
+  margin-left: 220px;
+}

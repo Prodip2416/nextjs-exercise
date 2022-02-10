@@ -1,0 +1,6 @@
+.cardImg:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+    /* transition: transform 1s;     */
+    transition: all .5s ease;    
+}
